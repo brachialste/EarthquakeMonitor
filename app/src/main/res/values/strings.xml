@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Earthquake Monitor</string>
+    <string name="num_parte">72-038-1038</string>
+
+    <!-- When a download completes, a notification is displayed, and this
+        string is used to indicate that the download successfully completed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace. -->
+    <string name="notification_download_complete">Descarga completa</string>
+
+    <!-- When a download completes, a notification is displayed, and this
+        string is used to indicate that the download failed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace. -->
+    <string name="notification_download_failed">Descarga no completada</string>
+
+
+    <string name="state_unknown">Iniciando..."</string>
+    <string name="state_idle">Esperando a que inicie la descarga</string>
+    <string name="state_fetching_url">Buscando los recursos para la descarga</string>
+    <string name="state_connecting">Conectando con el servidor de descargas</string>
+    <string name="state_downloading">Descargando recursos</string>
+    <string name="state_completed">Descarga finalizada</string>
+    <string name="state_paused_network_unavailable">Descarga pausada debido a que la red no esta disponible</string>
+    <string name="state_paused_network_setup_failure">Descarga pausada. Pruebe un sitio web en el explorador</string>
+    <string name="state_paused_by_request">Descarga pausada</string>
+    <string name="state_paused_wifi_unavailable">Descarga pausada debido a que la Wi-Fi no esta disponible</string>
+    <string name="state_paused_wifi_disabled">Descarga pausada pausada debido a que la Wi-Fi esta deshabilitada</string>
+    <string name="state_paused_roaming">Descarga pausada debido a que se esta en modo roaming</string>
+    <string name="state_paused_sdcard_unavailable">Descarga pausada debido a que el almacenamiento externo no esta disponible</string>
+    <string name="state_failed_unlicensed">Descarga falló debido a que no se ha obtenido la aplicación de Google Play</string>
+    <string name="state_failed_fetching_url">Descarga falló debido a que los recursos no pudieron ser encontrados</string>
+    <string name="state_failed_sdcard_full">Descarga falló debido a que el almacenamiento externo esta lleno</string>
+    <string name="state_failed_cancelled">Descarga cancelada</string>
+    <string name="state_failed">Descarga falló</string>
+
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Tiempo restante: %1$s</string>
+    <string name="time_remaining_notification">%1$s restante</string>
+
+    <!-- Splash -->
+    <string name="spl_status">Estatus&#8230;</string>
+    <string name="spl_loading">Cargando aplicación&#8230;</string>
+    <string name="spl_val_ins">Validando instalación&#8230;</string>
+    <string name="spl_valid_license">Verificando licencia&#8230;</string>
+    <string name="spl_valid_device">Validando el dispositivo&#8230;</string>
+    <string name="spl_valid_pubkey">Verificando llave pública&#8230;</string>
+    <string name="spl_licensing">Licenciando&#8230;</string>
+    <string name="spl_valid_security">Validando proveedor de seguridad&#8230;</string>
+    <string name="spl_valid_login">Validando usuario&#8230;</string>
+    <string name="spl_lic_send">Enviando petición&#8230;</string>
+    <string name="spl_lic_send_device">Enviando petición de validación de dispositivo&#8230;</string>
+    <string name="spl_lic_rec">Licencia recibida&#8230;</string>
+    <string name="spl_lic_err">Error al recibir el archivo de licencia, favor de intentar nuevamente&#8230;</string>
+    <string name="spl_valid_license_tab">Verificando licencia para el dispositivo </string>
+    <string name="spl_update_license_tab">Actualizando licencia para el dispositivo </string>
+    <string name="spl_msg1">Lo sentimos&#8230;</string>
+    <string name="spl_msg2">Para continuar utilizando SGC Móvil Director es necesario renovar la licencia, comprando a través del portal de Pegasus: \n <b>http://www.pegasus.com.mx/</b></string>
+    <string name="spl_msg3">ADVERTENCIA: Desinstalar la aplicación causará la pérdida de datos previos, configuraciones y preferencias.</string>
+    <string name="spl_msg4">El servidor encontró un error temporal y no fué posible completar tu petición. Favor de reintentar en unos minutos.</string>
+    <string name="spl_msg5">Hemos encontrado un problema para conectarse con el servidor. Favor de reintentar en unos minutos.</string>
+    <string name="spl_msg6" translatable="false">¡Oh, oh!</string>
+    <string name="spl_msg7">La conexión no es confiable</string>
+    <string name="spl_msg8">Normalmente, cuando el proveedor de seguridad está actualizado, la información viaja de manera segura y confiable. Sin embargo, el proveedor de su dispositivo no está actualizado, lo que puede significar un riesgo de seguridad. ¿Desea continuar de todas formas o salir para intentar más tarde?</string>
+    <string name="spl_msg9">Ha llegado al límite de dispositivos permitidos para su cuenta. Para poder utilizar la aplicación en más dispositivos con su cuenta porfavor compre el complemento de Dispositivo Adicional en la sección de compras.</string>
+    <string name="spl_init">Iniciando&#8230;</string>
+    <string name="spl_btn_retry">Reintentar</string>
+    <string name="spl_ver">V. </string>
+    <string name="spl_continue">Continuar</string>
+    <string name="config_ws">Conexión SGC Web</string>
+    <string name="config_ws_error">URL no válida </string>
+    <string name="config_ws_reboot">Es necesario reiniciar la aplicación para que los cambios surjan efecto: </string>
+
+    <!--GMC-->
+    <string name="error_config">Favor de asignar la constante %1$s y recompilar la aplicación.</string>
+    <string name="already_registered">Dispositivo registrado en el servidor con anterioridad.</string>
+    <string name="gcm_registered">GCM: dispositivo registrado correctamente (regId = %1$s)!</string>
+    <string name="gcm_unregistered">GCM: registro de dispositivo correctamente anulado!</string>
+    <string name="gcm_message">GCM: tienes un mensaje!</string>
+    <string name="gcm_error">GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">GCM: error recuperable (%1$s).</string>
+    <string name="gcm_deleted">GCM: el servidor ha eliminado %1$d mensajes pendientes!</string>
+    <string name="server_registering">Intentanto (intento %1$d/%2$d) registrar el dispositivo en el servidor demo.</string>
+    <string name="server_registered">Servidor Demo: Se agrego el dispositivo correctamente!</string>
+    <string name="server_unregistered">Servidor Demo: Se eliminó el dispositivo correctamente!</string>
+    <string name="server_register_error">No se pudo registrar el dispositivo en el servidor demo después de %1$d intentos.</string>
+    <string name="server_unregister_error">No se pudo anular el registro del dispositivo en el servidor demo (%1$s).</string>
+    <string name="options_register">Registrar</string>
+    <string name="options_unregister">Anular el registro</string>
+    <string name="options_clear">Limpiar</string>
+    <string name="options_exit">Salir</string>
+    <string name="gcm_title">GCM</string>
+    <string name="gcm_error_1">Error al enviar el regId (GCM) a SGC Web</string>
+    <string name="gcm_error_2">Error al registrar el dispositivo con GCM</string>
+    <string name="gcm_error_3">Error al registrar el dispositivo en SGC Web</string>
+    <string name="gcm_error_4">Error al registrar el dispositivo con GCM:</string>
+    <string name="gcm_error_5">Error al obtener el identificador registrado en GCM</string>
+    <string name="gcm_msg_1">Registrando en GCM&#8230;</string>
+    <string name="gcm_msg_2">Dispositivo registrado en GCM correctamente</string>
+    <string name="gcm_msg_3">Dispositivo registrado en SGC Web correctamente</string>
+    <string name="gcm_msg_4">Dispositivo desregistrado de GCM correctamente</string>
+
+    <!-- Licenciamiento -->
+    <string name="serial_title">SGC Móvil Director License</string>
+    <string name="serial_num">Serial</string>
+    <string name="serial_submit">Aceptar</string>
+    <string name="copy_message">Copiando archivo obb</string>
+    <string name="copy_failed">Fallo al copiar el archivo de expansion</string>
+    <string name="msg_lic_ok">Licencia válida</string>
+    <string name="msg_lic_validity">Días de licencia restantes:</string>
+    <string name="msg_lic_tab">Dispositivo licenciado:</string>
+    <string name="msg_lic_err">Usted esta utilizando una licencia corrupta. Por favor renueve su licencia de SGC Movil Director</string>
+    <string name="msg_lic_err1">Licencia inválida</string>
+    <string name="msg_lic_err2">Licencia caducada</string>
+    <string name="msg_lic_err3">Licencia corrupta</string>    
+    <string name="msg_lic_err4">Servidor inalcanzable, favor de reintentar</string>
+    <string name="msg_lic_err5">No se encuentra el archivo de licencia</string>
+    <string name="msg_lic_err6">La licencia no corresponde con el dispositivo</string>
+    <string name="msg_lic_err7">La licencia no corresponde con el producto</string>
+    <string name="lic_title">Licenciamiento</string>
+
+    <!--Compras-->
+    <string name="purchases_msg">Validando compras&#8230;</string>
+    <string name="purchases_title">Productos</string>
+    <string name="purchases_err1">Problema configurando in-app billing:&#160;</string>
+    <string name="purchases_err2">Falla al consultar el inventario:&#160;</string>
+    <string name="purchases_err3">Lo sentimos, las suscripciones no están soportadas en el dispositivo.</string>
+    <string name="purchases_err4">Error en la compra:&#160;</string>
+    <string name="purchases_err5">Error en la compra. Falla en la validación de autenticidad.</string>
+    <string name="purchases_err6">Error al obtener los datos del usuario para realizar la compra.</string>
+    <string name="purchases_err7">No se tiene conexión activa con SGC Web para realizar la compra. Si el problema persiste porfavor vuelva a iniciar sesión en la aplicación.</string>
+    <string name="purchases_err8">Error al consumir:&#160;</string>
+    <string name="purchases_thanks">Gracias por suscribirse al complemento de Logística!</string>
+    <string name="purchases_thanks_fact">Gracias por suscribirse al complemento de Facturación!</string>
+    <string name="purchases_thanks_security">Gracias por suscribirse al complemento de configuración de seguridad!</string>
+    <string name="purchases_buyed_state">COMPRADO</string>
+    <string name="purchases_det_name">Nombre</string>
+    <string name="purchases_det_type">Tipo</string>
+    <string name="purchases_det">Detalle Producto</string>
+    <string name="purchases_det_price">Precio</string>
+    <string name="purchases_title_bar">Complementos Adicionales</string>
+    <string name="purchases_wait">Por favor espere&#8230;</string>
+    <string name="purchase_lbl">Comprar</string>
+
+    <!--Complemento dispositivo adicional-->
+    <string name="device_add_title">Dispositivo Adicional</string>
+    <string name="device_add_detail">Permite el uso de SGC Movil Director en otros dispositivos con la misma cuenta</string>
+    <string name="device_add_type">Producto consumible</string>
+    <string name="device_add_tnks">Gracias por comprar el complemento de Dispositivo Adicional!</string>
+    <string name="device_add_con">Consumo exitoso</string>
+
+	<!--     Downloader -->
+    <string name="text_verifying_download">Verificando descarga&#8230;</string>
+    <string name="text_validation_complete">Validación de archivo de expansion completada.</string>
+    <string name="text_validation_failed">Falló validación de archivo de expansion.</string>
+    
+    <!-- Login -->
+    <string name="login_title">SGC Móvil Director Login</string>
+    <string name="login_user">Nombre de usuario</string>
+    <string name="login_pass">Contraseña</string>
+    <string name="login_submit">Entrar</string>
+    <string name="login_cancel">Cancelar</string>
+    <string name="login_remember">Recordar mis datos</string>
+
+    <!--Drawer-->
+    <string name="drawer_open">Abrir drawer</string>
+    <string name="drawer_close">Cerrar drawer</string>
+    <string name="action_websearch">Búsqueda Web</string>
+    <string name="app_not_available">Lo sentimos, no se tiene un browser disponible</string>
+
+    <!-- TabMain -->
+    <string name="main_back">Pulse de nuevo para salir de la aplicación</string>
+    <string name="main_off">No hay conexión a internet</string>
+
+    <!-- Acerca de -->
+    <string name="about_content">Acerca de&#8230;</string>
+    <string name="about_auth">Autor: </string>
+    <string name="about_ins">Requiere una versión de Android 4.0+</string>
+    <string name="about_manual">Manual de usuario:</string>
+    <string name="about_url">sgcmovil.pegasus.com.mx</string>
+
+    <!--Estaciones-->
+    <string name="est_title">Estaciones</string>
+    <string name="est_load">Cargando estaciones&#8230;</string>
+
+    <!--Reportes-->
+    <string name="rep_type_ri505" translatable="false">Ri505</string>
+    <string name="rep_type_troya" translatable="false">Troya</string>
+    <string name="rep_type_ca">Carga de Autotanque</string>
+    <string name="rep_load">Cargando reportes&#8230;</string>
+    <string name="rep_fecha_lbl">Fecha de generación</string>
+    <string name="rep_period_lbl">Periodo</string>
+    <string name="rep_period_con">al</string>
+    <string name="rep_factor_lbl">Factor promedio</string>
+    <string name="rep_volume_lbl">Volumen transaccionado</string>
+    <string name="rep_efi_lit_lbl">Eficiencia en litros</string>
+    <string name="rep_efi_pes_lbl">Eficiencia en pesos</string>
+    <string name="rep_title">Reportes</string>
+    <string name="rep_lbl">Reporte&#160;</string>
+    <string name="rep_con">Consultar</string>
+    <string name="rep_con_finicial">Fecha Inicial</string>
+    <string name="rep_con_ffinal">Fecha Final</string>
+    <string name="rep_msg1">¿Esta seguro de querer eliminar este reporte? No se podrá recuperar esta información.</string>
+    <string name="rep_err1">Requerido</string>
+    <string name="rep_err2">La fecha inicial no puede ser mayor a la fecha actual</string>
+    <string name="rep_err3">La fecha final no puede ser mayor a la fecha actual</string>
+    <string name="rep_err4">La fecha inicial no puede ser mayor a la fecha final</string>
+    <string name="rep_err5">Falla al consultar el reporte</string>
+    <string name="rep_con_title">Consulta</string>
+    <string name="rep_consulting">Consultando reporte&#8230;</string>
+    <string name="rep_consult">Consultar Reporte</string>
+    <string name="rep_act">Activaciones</string>
+    <string name="rep_desact">Desactivaciones</string>
+    <string name="rep_list_upd">Lista de Reportes Actualizada</string>
+    <string name="rep_dup">La información de este reporte ya se encuentra en el dispositivo</string>
+    <string name="rep_type_select">Seleccione el tipo de reporte:</string>
+    <string name="rep_gas_usado_lbl">Gas usado total</string>
+    <string name="rep_gas_cil_lbl">Gas usado cilindros</string>
+    <string name="rep_gas_vent_lbl">Gas usado ventas</string>
+    <string name="rep_gas_desp_lbl">Gas desperdiciado</string>
+    <string name="rep_gas_no_lbl">Gas no autorizado</string>
+    <string name="rep_gas_uni_lbl">Unidades Cargadas</string>
+    <string name="rep_gas_efi_lbl">Eficiencia</string>
+
+    <!--Popup-->
+    <string name="popup_button_txt">Aceptar</string>
+    <string name="popup_button_yes">Si</string>
+    <string name="popup_button_no">No</string>
+
+    <!-- Web Service -->
+    <string name="internet_fail_title">Conexion a Internet</string>
+    <string name="sgcweb_fail_title">Conexion a SGC WEB</string>
+    <string name="internet_fail_message">No hay conexión a la red</string>
+    <string name="internet_fail_message_2">No se puede conectar</string>
+    <string name="ws_fail_title">Conexion a SGCWeb</string>
+    <string name="ws_fail_message">El servidor esta inactivo</string>
+    <string name="btn_web_frec">Frecuencias</string>
+    <string name="btn_web_save">Guardar</string>
+    <string name="web_err1">Falla en la negociación con servidor web</string>
+    <string name="web_err2">Falla al negociar con el servidor web</string>
+    <string name="web_err3">Error al recibir respuesta del servidor web</string>
+
+    <!--Tramas-->
+    <string name="frame_err1">Trama incorrecta</string>
+    <string name="frame_err2" translatable="false">JSONException</string>
+    <string name="frame_err3" translatable="false">DuplicatedRegisterException</string>
+
+    <!-- Menu -->
+    <string name="menu_config">Configuración</string>
+    <string name="menu_about">Acerca de&#8230;</string>
+    <string name="menu_exit">Salir</string>
+    <string name="menu_connect">Conectar</string>
+    <string name="menu_disconnect">Cerrar Sesión</string>
+    <string name="menu_forget">Borrar datos de acceso</string>
+    <string name="menu_purchases">Compras</string>
+    <string name="menu_prefs">Preferencias</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_upd">Actualizar</string>
+    <string name="menu_map">Mostrar Mapa</string>
+    <string name="menu_delete">Eliminar</string>
+
+    <!-- Error -->
+    <string name="err_update">Error de actualizacion</string>
+    <string name="err_web1">Expiro la conexión al Web Service</string>
+    <string name="err_web2">Se perdió la conexión a Internet</string>
+    <string name="err_web3">Nombre de usuario o contraseña incorrecto</string>
+    <string name="err_web4">Error desconocido</string>
+    <string name="err_web6">URL incorrecta</string>
+    <string name="err_msg1">Lo sentimos&#8230;!</string>
+    <string name="err_msg2">Ha ocurrido algo extraño con SGC Móvil Director! Estamos trabajando en ello!</string>
+    <string name="err_msg3">Ha ocurrido algo extraño con SGC Móvil Director! Ayudanos a mejorar reportando la falla&#8230;</string>
+    <string name="err_mail">brachialste@gmail.com</string>
+    <string name="err_btn1">Reportar</string>
+    <string name="err_btn2">Cancelar</string>
+    <string name="err_title">Informe de error reportado el :</string>
+    <string name="err_device">Información del dispositivo:</string>
+    <string name="err_stack">Stack:</string>
+    <string name="err_end">**** Fin del informe ***</string>
+    <string name="err_1">Error en el correo</string>
+    <string name="err_2">Error al enviar el correo electrónico</string>
+    <string name="err_3">No se pudo obtener la versión de</string>
+
+    <!--Device info-->
+    <string name="inf_0">Conf. Local:</string>
+    <string name="inf_1">Versión:</string>
+    <string name="inf_2">Paquete:</string>
+    <string name="inf_3">Modelo:</string>
+    <string name="inf_4">Versión de Android:</string>
+    <string name="inf_5">Tarjeta:</string>
+    <string name="inf_6">Fabricante:</string>
+    <string name="inf_7">Dispositivo:</string>
+    <string name="inf_8">Host:</string>
+    <string name="inf_9">ID:</string>
+    <string name="inf_10">Modelo:</string>
+    <string name="inf_11">Producto:</string>
+    <string name="inf_12">Tipo:</string>
+    <string name="inf_13">Memoria interna total:</string>
+    <string name="inf_14">Memoria interna disponible:</string>
+
+    <!-- Preferencias -->
+    <string name="pref_title">Preferencias SGC Móvil Director</string>
+    <string name="pref_cat_3">Otra</string>
+    <string name="pref_def_8">Idioma</string>
+    <string name="pref_tit_8">Idioma</string>
+    <string name="pref_def_3">Dirección web de SGC Web</string>
+    <string name="pref_tit_3">Dirección web</string>
+    <string name="pref_err_1">Dirección inválida</string>
+
+    <!-- Licenciamiento -->
+    <string name="check_license">Verificar licencia</string>
+    <string name="checking_license">Verificando licencia&#8230;</string>
+    <string name="dont_allow">Acceso denegado</string>
+    <string name="allow">Acceso autorizado</string>
+    <string name="application_error">Error de aplicación: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Aplicación sin licencia</string>
+    <string name="unlicensed_dialog_body">Esta aplicación no tiene licencia. Por favor compre una licencia válida desde el Google Play.</string>
+    <string name="buy_button">Comprar aplicación</string>
+    <string name="quit_button">Salir</string>
+
+    <!-- Database -->
+    <string name="db_clear_dataBean" translatable="false">DROP TABLE IF EXISTS dataBean</string>
+
+    <string name="db_dataBean" translatable="false">CREATE TABLE IF NOT EXISTS dataBean (_id INTEGER PRIMARY KEY AUTOINCREMENT, magnitude REAL, place TEXT, latitude REAL, longitude REAL, time REAL, depth REAL, date_entered TEXT, date_modified TEXT, deleted INTEGER)</string>
+
+</resources>

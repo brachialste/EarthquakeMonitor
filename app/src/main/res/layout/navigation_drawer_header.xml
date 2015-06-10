@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/status_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <com.brachialste.earthquakemonitor.view.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/drawer_image"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        app:border_width="2dp"
+        app:border_color="@color/title_background">
+    </com.brachialste.earthquakemonitor.view.CircleImageView>
+
+    <!-- Acceso -->
+    <TextView
+        android:id="@+id/drawer_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/title_background"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/drawer_image"
+        android:textSize="14sp" />
+
+    <!-- Espacio -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@id/drawer_detail"/>
+
+</RelativeLayout>

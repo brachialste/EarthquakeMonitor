@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Earthquake Monitor</string>
+    <string name="num_parte">72-038-1038</string>
+
+    <!-- When a download completes, a notification is displayed, and this
+        string is used to indicate that the download successfully completed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace. -->
+    <string name="notification_download_complete">Download complete</string>
+
+    <!-- When a download completes, a notification is displayed, and this
+        string is used to indicate that the download failed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace. -->
+    <string name="notification_download_failed">Download unsuccessful</string>
+
+
+    <string name="state_unknown">Starting..."</string>
+    <string name="state_idle">Waiting for download to start</string>
+    <string name="state_fetching_url">Looking for resources to download</string>
+    <string name="state_connecting">Connecting to the download server</string>
+    <string name="state_downloading">Downloading resources</string>
+    <string name="state_completed">Download finished</string>
+    <string name="state_paused_network_unavailable">Download paused because no network is available</string>
+    <string name="state_paused_network_setup_failure">Download paused. Test a website in browser</string>
+    <string name="state_paused_by_request">Download paused</string>
+    <string name="state_paused_wifi_unavailable">Download paused because wifi is unavailable</string>
+    <string name="state_paused_wifi_disabled">Download paused because wifi is disabled</string>
+    <string name="state_paused_roaming">Download paused because you are roaming</string>
+    <string name="state_paused_sdcard_unavailable">Download paused because the external storage is unavailable</string>
+    <string name="state_failed_unlicensed">Download failed because you may not have purchased this app</string>
+    <string name="state_failed_fetching_url">Download failed because the resources could not be found</string>
+    <string name="state_failed_sdcard_full">Download failed because the external storage is full</string>
+    <string name="state_failed_cancelled">Download cancelled</string>
+    <string name="state_failed">Download failed</string>
+
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Time remaining: %1$s</string>
+    <string name="time_remaining_notification">%1$s left</string>
+
+    <!-- Splash -->
+    <string name="spl_status">Status&#8230;</string>
+    <string name="spl_loading">Loading&#8230;</string>
+    <string name="spl_valid_license">Checking license&#8230;</string>
+    <string name="spl_valid_pubkey">Checking public key&#8230;</string>
+    <string name="spl_licensing">Licensing&#8230;</string>
+    <string name="spl_valid_login">Validating user&#8230;</string>
+    <string name="spl_lic_send">Sending request&#8230;</string>
+    <string name="spl_lic_rec">License received&#8230;</string>
+    <string name="spl_lic_err">Failed to receive the license file, please try again&#8230;</string>
+    <string name="spl_valid_license_tab">Verifying license for the device </string>
+    <string name="spl_update_license_tab">Updating license for the device </string>
+    <string name="spl_msg1">Sorry&#8230;</string>
+    <string name="spl_msg2">To continue using SGC Móvil Director is necessary to renew the license, you can buy it through the Pegasus website: \n <b>http://www.pegasus.com.mx/</b></string>
+    <string name="spl_msg3">WARNING: Uninstall the application will cause the loss of previous data, settings and preferences.</string>
+    <string name="spl_init">Starting&#8230;</string>
+
+    <!--GMC-->
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered (regId = %1$s)!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="gcm_title">GCM</string>
+    <string name="gcm_error_1">Error sending regID (GCM) to SGC Web</string>
+    <string name="gcm_error_2">Failed to register the device with GCM</string>
+    <string name="gcm_error_3">Failed to register the device in SGC Web</string>
+    <string name="gcm_error_4">Failed to register the device with GCM:</string>
+    <string name="gcm_error_5">Failed to get registered GCM identifier</string>
+    <string name="gcm_msg_1">Registering in GCM&#8230;</string>
+    <string name="gcm_msg_2">Properly registered device in GCM</string>
+    <string name="gcm_msg_3">Device registered correctly in SGC Web</string>
+    <string name="gcm_msg_4">Properly unregistered device from GCM</string>
+
+    <!-- Licenciamiento -->
+    <string name="serial_title">SGC Móvil Director License</string>
+    <string name="serial_num">Serial</string>
+    <string name="serial_submit">Accept</string>
+    <string name="copy_message">Copying obb file</string>
+    <string name="copy_failed">Failed to copy the expansion file</string>
+    <string name="msg_lic_ok">License valid</string>
+    <string name="msg_lic_validity">Remaining license days:</string>
+    <string name="msg_lic_tab">Licensed device:</string>
+    <string name="msg_lic_err">You are using a corrupt license. Please renew your SGC Móvil Director license</string>
+    <string name="msg_lic_err1">License invalid</string>
+    <string name="msg_lic_err2">Expired License</string>
+    <string name="msg_lic_err3">License corrupt</string>
+    <string name="msg_lic_err4">Server unreachable, please retry</string>
+    <string name="msg_lic_err5">Can not find license file</string>
+    <string name="msg_lic_err6">The license does not match the device</string>
+    <string name="msg_lic_err7">The license does not match the product</string>
+    <string name="lic_title">Licensing</string>
+
+    <!--     Downloader -->
+    <string name="text_verifying_download">Checking download&#8230;</string>
+    <string name="text_validation_complete">Expansion file validation completed.</string>
+    <string name="text_validation_failed">Expansion file validation failed.</string>
+
+    <!-- Login -->
+    <string name="login_title">SGC Móvil Director Login</string>
+    <string name="login_user">Username</string>
+    <string name="login_pass">Password</string>
+    <string name="login_submit">Login</string>
+    <string name="login_cancel">Cancel</string>
+    <string name="login_remember">Remember my login info</string>
+
+    <!-- TabMain -->
+    <string name="main_back">Press again to exit application</string>
+    <string name="main_off">No Internet conection</string>
+
+    <!-- Acerca de -->
+    <string name="about_content">About&#8230;</string>
+    <string name="about_auth">Author: </string>
+    <string name="about_ins">Requires Android 2.3+</string>
+    <string name="about_manual">User manual:</string>
+    <string name="about_url">sgcmovil.pegasus.com.mx</string>
+
+    <!-- Web Service -->
+    <string name="internet_fail_title">Internet Connection</string>
+    <string name="sgcweb_fail_title">SGC WEB Connection</string>
+    <string name="internet_fail_message">No network connection</string>
+    <string name="ws_fail_title">SGCWeb Connection</string>
+    <string name="ws_fail_message">The server is idle</string>
+    <string name="btn_web_frec">Frequencies</string>
+    <string name="btn_web_save">Save</string>
+
+    <!-- Menu -->
+    <string name="menu_config">Settings</string>
+    <string name="menu_about">About&#8230;</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Close session</string>
+    <string name="menu_forget">Forget data</string>
+    <string name="menu_prefs">Preferences</string>
+    <string name="menu_help">Help</string>
+
+    <!-- Error -->
+    <string name="err_update">Update error</string>
+    <string name="err_web1">Web Service expired connection</string>
+    <string name="err_web2">Internet lost connection</string>
+    <string name="err_web3">Username or password incorrect</string>
+    <string name="err_web4">Unknown error</string>
+    <string name="err_web6">Incorrect URL</string>
+
+    <string name="err_msg1">Sorry&#8230;!</string>
+    <string name="err_msg2">Something is wrong with SGC Móvil Director! We are working on that!</string>
+    <string name="err_msg3">Something is wrong with SGC Móvil Director! Help us improve the fault reporting&#8230;</string>
+    <string name="err_mail">sgcmovil@corporativosade.com.mx</string>
+    <string name="err_btn1">Report</string>
+    <string name="err_btn2">Cancel</string>
+    <string name="err_title">Error Report collected on:</string>
+    <string name="err_device">Device Information:</string>
+    <string name="err_stack">Stack:</string>
+    <string name="err_end">**** End of current Report ***</string>
+    <string name="err_1">Error while sendErrorMail</string>
+    <string name="err_2">Error while sending error e-mail</string>
+    <string name="err_3">Could not get Version information for</string>
+
+    <string name="inf_0">Locale:</string>
+    <string name="inf_1">Version:</string>
+    <string name="inf_2">Package:</string>
+    <string name="inf_3">Phone Model:</string>
+    <string name="inf_4">Android Version:</string>
+    <string name="inf_5">Board:</string>
+    <string name="inf_6">Brand:</string>
+    <string name="inf_7">Device:</string>
+    <string name="inf_8">Host:</string>
+    <string name="inf_9">ID:</string>
+    <string name="inf_10">Model:</string>
+    <string name="inf_11">Product:</string>
+    <string name="inf_12">Type:</string>
+    <string name="inf_13">Total Internal memory:</string>
+    <string name="inf_14">Available Internal memory:</string>
+
+    <!-- Licenciamiento -->
+    <string name="check_license">Verify license</string>
+    <string name="checking_license">Verifying license&#8230;</string>
+    <string name="dont_allow">Access denied</string>
+    <string name="allow">Authorized access</string>
+    <string name="application_error">Application Error: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application unlicensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase a valid license from Google Play.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="quit_button">Exit</string>
+    <string name="action_websearch">Web Search</string>
+    <string name="app_not_available">Sorry, you do not have an available browser</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="est_load">Loading stations&#8230;</string>
+    <string name="internet_fail_message_2">Cannot connect</string>
+    <string name="spl_btn_retry">Retry</string>
+    <string name="spl_lic_send_device">Sending device validation request&#8230;</string>
+    <string name="spl_valid_device">Validating device&#8230;</string>
+    <string name="spl_ver">V.</string>
+    <string name="spl_msg4">The server encountered a temporary error and it was not possible to complete your request. Please retry in a few minutes.</string>
+    <string name="pref_cat_3">Other</string>
+    <string name="pref_def_8">Language</string>
+    <string name="pref_title">SGC Móvil Director Preferences</string>
+    <string name="menu_upd">Update</string>
+    <string name="menu_map">Show map</string>
+    <string name="config_ws">SGC Web Connection</string>
+    <string name="config_ws_error">Invalid URL</string>
+    <string name="pref_tit_8">Language</string>
+    <string name="popup_button_txt">OK</string>
+    <string name="rep_efi_lit_lbl">Liters efficiency</string>
+    <string name="rep_efi_pes_lbl">Pesos efficiency </string>
+    <string name="rep_factor_lbl">Average factor</string>
+    <string name="rep_fecha_lbl">Generation date</string>
+    <string name="rep_lbl">Report&#160;</string>
+    <string name="rep_load">Loading reports&#8230;</string>
+    <string name="rep_period_lbl">Period</string>
+    <string name="rep_volume_lbl">Volume transacted</string>
+    <string name="rep_con_ffinal">Start Date</string>
+    <string name="rep_con_finicial">Final Date</string>
+    <string name="rep_con">Consult</string>
+    <string name="rep_err1">Required</string>
+    <string name="rep_err2">Start date cannot be greater than the current </string>
+    <string name="rep_err3">Final date cannot be greater than the current</string>
+    <string name="rep_err4">Start date cannot be greater than the final date</string>
+    <string name="rep_err5">Failed to consult report</string>
+    <string name="rep_title">Reports</string>
+    <string name="spl_continue">Continue</string>
+    <string name="spl_valid_security">Validating security provider&#8230;</string>
+    <string name="spl_msg5">We found a problem connecting with the server. Please retry in a few minutes.</string>
+    <string name="spl_msg7">The connection is not reliable</string>
+    <string name="spl_msg8">Normally, when the security provider is updated, the information travels safely and reliably. However, the provider of your device is not updated, which can mean a security risk. Do you want to continue anyway or to try out later?</string>
+    <string name="spl_msg9">You have reached the limit of allowed devices for your account. To use the application on more devices with your account please buy the supplement Additional Device in the purchases section.</string>
+    <string name="menu_purchases">Purchases</string>
+    <string name="purchases_title">Products</string>
+    <string name="purchases_buyed_state">PURCHASED</string>
+    <string name="purchases_det">Product Detail</string>
+    <string name="purchases_det_name">Name</string>
+    <string name="purchases_det_price">Price</string>
+    <string name="purchases_det_type">Type</string>
+    <string name="purchases_err1">Problem setting in-app billing:&#160;</string>
+    <string name="purchases_err2">Failed to retrieve the inventory:&#160;</string>
+    <string name="purchases_err3">Sorry, subscriptions are not supported on the device.</string>
+    <string name="purchases_err4">Error in purchase:&#160;</string>
+    <string name="purchases_err5">Error in purchasing. Failure to validate authenticity.</string>
+    <string name="purchases_thanks">Thank you for subscribing to Logistics complement</string>
+    <string name="purchases_err6">Error obtaining user data for purchase.</string>
+    <string name="purchases_err7">No Internet connection to make purchase. If problem persist please exit and login again. </string>
+    <string name="purchases_msg">Validating purchases&#8230;</string>
+    <string name="purchases_title_bar">Add-Ins</string>
+    <string name="purchases_wait">Please wait&#8230;</string>
+    <string name="purchases_thanks_fact">Thank you for subscribing to Invoice complement</string>
+    <string name="purchases_thanks_security">Thank you for subscribing to security congigurations complement!</string>
+    <string name="purchase_lbl">Buy</string>
+    <string name="spl_val_ins">Validating installation&#8230;</string>
+    <string name="config_ws_reboot">You must restart the application for the changes to take effect:</string>
+    <string name="device_add_con">Successful consumption</string>
+    <string name="device_add_detail">Allows use of SGC Móvil Director in other devices with the same account</string>
+    <string name="device_add_title">Additional Device</string>
+    <string name="device_add_tnks">Thank you for purchasing the Additional Device add-on!</string>
+    <string name="device_add_type">Add-on</string>
+    <string name="est_title">Stations</string>
+    <string name="frame_err1">Incorrect frame</string>
+    <string name="menu_delete">Delete</string>
+    <string name="popup_button_no">No</string>
+    <string name="popup_button_yes">Yes</string>
+    <string name="pref_def_3">SGC Web website</string>
+    <string name="pref_err_1">Invalid Website </string>
+    <string name="pref_tit_3">Website</string>
+    <string name="purchases_err8">Error to consume:&#160;</string>
+    <string name="rep_act">Activations</string>
+    <string name="rep_con_title">Consult</string>
+    <string name="rep_consult">Report Consult</string>
+    <string name="rep_consulting">Consulting report&#8230;</string>
+    <string name="rep_desact">Desactivations</string>
+    <string name="rep_list_upd">Report List Updated</string>
+    <string name="rep_msg1">Are you sure you want delete this report? You can not retrieve this information.</string>
+    <string name="web_err1">Web server negotiation failure</string>
+    <string name="web_err2">Web server negotiation failure</string>
+    <string name="web_err3">Web server response failure</string>
+    <string name="rep_dup">This report info is already in the device</string>
+    <string name="rep_period_con">to</string>
+    <string name="rep_gas_cil_lbl">Cylinders gas used</string>
+    <string name="rep_gas_desp_lbl">Wasted gas</string>
+    <string name="rep_gas_efi_lbl">Efficiency</string>
+    <string name="rep_gas_no_lbl">Unauthorized gas</string>
+    <string name="rep_gas_uni_lbl">Loaded units</string>
+    <string name="rep_gas_usado_lbl">Total used gas</string>
+    <string name="rep_gas_vent_lbl">Sales used gas</string>
+    <string name="rep_type_ca">Gas truck load</string>
+    <string name="rep_type_select">Select the report type:</string>
+
+</resources>
