@@ -16,7 +16,7 @@
         android:id="@+id/main_frame"
         android:padding="0px"
         android:layout_margin="0px"
-        tools:context="com.brachialste.earthquakemonitor.reports.DataListActivity">
+        tools:context="com.brachialste.earthquakemonitor.data.DataListActivity">
 
         <include
             android:id="@+id/toolbar"
@@ -68,7 +68,7 @@
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_centerInParent="true"
-                ProgressWheel:text="@string/rep_load"
+                ProgressWheel:text="@string/data_load"
                 ProgressWheel:textColor="@color/title_text"
                 ProgressWheel:textSize="14sp"
                 ProgressWheel:rimColor="@color/stand_blue"

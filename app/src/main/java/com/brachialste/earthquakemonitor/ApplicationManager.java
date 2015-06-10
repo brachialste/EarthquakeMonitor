@@ -2,7 +2,6 @@ package com.brachialste.earthquakemonitor;
 
 import android.app.Application;
 
-import com.brachialste.earthquakemonitor.security.PRNGFixes;
 import com.brachialste.earthquakemonitor.view.FontsOverride;
 
 /**
@@ -13,8 +12,7 @@ import com.brachialste.earthquakemonitor.view.FontsOverride;
  */
 public class ApplicationManager extends Application {
 	// Debug
-	public static final boolean D = true; // variable global para el debug
-//	public static final boolean D = false; // TODO: PRODUCCIÓN
+	public static final boolean D = false; // variable global para el debug
 
     // variable que indica el valor de la versión
     public static int appVersionCode = 1;
@@ -27,9 +25,6 @@ public class ApplicationManager extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-
-		// aplicamos el parche par ala corrección de la generación de números aleatorios
-		PRNGFixes.apply();
 
 		// sobrescribimos los tipos de letra
 		FontsOverride.setDefaultFont(this, "DEFAULT", "Roboto_Regular.ttf");

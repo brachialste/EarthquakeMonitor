@@ -96,12 +96,12 @@ public class USGSService {
                     sBuf.append(line);
                 }
             } catch (IOException e) {
-                Log.e("Routing Error", e.getMessage());
+                Log.e("Error", e.getMessage());
             } finally {
                 try {
                     input.close();
                 } catch (IOException e) {
-                    Log.e("Routing Error", e.getMessage());
+                    Log.e("Error", e.getMessage());
                 }
             }
             return sBuf.toString();

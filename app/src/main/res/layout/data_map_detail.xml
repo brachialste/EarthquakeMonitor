@@ -23,7 +23,6 @@
             <TableLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/data_indicator_img"
                 android:layout_marginLeft="15dp"
                 android:orientation="vertical">
                 <TableRow
@@ -32,7 +31,6 @@
                     android:layout_height="wrap_content" >
                     <TextView
                         android:id="@+id/data_magnitude"
-                        android:text="Magnitud: 9.8"
                         android:layout_width="50dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/title_background"
@@ -44,7 +42,6 @@
                     android:layout_height="wrap_content" >
                     <TextView
                         android:id="@+id/data_depth"
-                        android:text="Profundidad: (5.0 km)"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/title_background"
@@ -56,7 +53,6 @@
                     android:layout_height="wrap_content" >
                     <TextView
                         android:id="@+id/data_place"
-                        android:text="Lugar: Bla bla bla"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/title_background"

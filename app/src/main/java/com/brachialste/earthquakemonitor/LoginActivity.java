@@ -19,7 +19,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.brachialste.earthquakemonitor.reports.DataListActivity;
+import com.brachialste.earthquakemonitor.data.DataListActivity;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.security.ProviderInstaller;
 import com.brachialste.earthquakemonitor.web.communication.WebServerCommunication;
@@ -304,7 +304,7 @@ public class LoginActivity extends Activity implements ProviderInstaller.Provide
             conn_det = ConnectionDetector.getInstance(LoginActivity.this);
 
             // seteamos el estatus
-            statusTxt.setText("Validando servidor...");
+            statusTxt.setText(getString(R.string.spl_serv));
         }
 
         @Override

@@ -87,7 +87,7 @@ public class WebServerCommunication {
             try {
                 respuesta = usgsService.procesarPeticion();
             } catch (MalformedURLException e) {
-                String message = "URL Inexistente";
+                String message = context.getString(R.string.err_web6);
                 Log.e(TAG, message);
                 // expiro la conexion
                 Intent i = new Intent();
